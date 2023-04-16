@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "breeze-ai-test"
+version = "0.1.0"
+description = ""
+authors = ["Rohit Kumar <gahlyanrohit18@gmail.com>"]
+readme = "README.md"
+packages = [{include = "breeze_ai_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.1"
+uvicorn = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
